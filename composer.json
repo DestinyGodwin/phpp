@@ -1,0 +1,17 @@
+{
+    "name": "desti/phpp",
+    "description": "A php app for tracking expenses",
+    "type": "project",
+    "authors": [
+        {
+            "name": "OD"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "src/Framework",
+            "App\\": "src/App"
+        }
+    }
+}
